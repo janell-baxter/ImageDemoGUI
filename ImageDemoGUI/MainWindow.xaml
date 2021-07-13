@@ -1,0 +1,17 @@
+﻿<Window x:Class="ImageDemoGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageDemoGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <Image x:Name="HeadImage" HorizontalAlignment="Left" Height="100" Margin="89,38,0,0" VerticalAlignment="Top" Width="200" Source="media/Head02.bmp"/>
+        <Image x:Name="TorsoImage" HorizontalAlignment="Left" Height="100" Margin="89,162,0,0" VerticalAlignment="Top" Width="200"/>
+        <Image x:Name="LegsImage" HorizontalAlignment="Left" Height="100" Margin="89,286,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="NextButton" Content="--&gt;" HorizontalAlignment="Left" Margin="302,70,0,0" VerticalAlignment="Top" Width="75" Click="NextButton_Click"/>
+        <Button x:Name="HeadPreviousButton" Content="&lt;--" HorizontalAlignment="Left" Margin="7,70,0,0" VerticalAlignment="Top" Width="75" Click="HeadPreviousButton_Click"/>
+
+    </Grid>
+</Window>
